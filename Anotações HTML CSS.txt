@@ -1,0 +1,56 @@
+HTML5
+
+Um elemento HTML é formado pela tag de abertura e seus atributos, o conteúdo e uma tag de fechamento. E mais a frente veremos que existem elementos que não tem tag de fechamento.
+
+<h1 class="titulo">Título</h1> Elemento HTML
+
+Estrutura básica:
+
+<!DOCTYPE html> diz ao navegador o que estamos escrevendo
+<html> é a raiz do documento, onde informamos o idioma, por exemplo
+ <head> elementos que serão lidos pelo navegador, como a codificação de caracteres - mais comum é a UTF-8
+  <meta>
+  <title></title>
+ </head>
+ <body> todo conteúdo visível ao usuário
+ </body>
+</html>
+        
+SEMÂNTICA:
+
+<section> sessão genérica de conteúdo
+<header> cabeçalho da página ou de parte dela
+<article> conteúdo relevante
+<aside> conteúdo relacionado ao conteúdo principal
+<footer> rodapé da página ou de parte dela
+<h1>-<h6> importância dos títulos
+
+<p> parágrafo: não suporta apenas texto, posso adicionar qualquer tipo de conteúdo nele
+
+<a>Link</> : href - hiperlink e target (_blank) - abre o link em uma nova aba
+
+<img>
+<img src=""> obrigatório, guarda o caminho da imagem
+<img alt=""> descrição da foto
+
+Listas:
+<ul> a ordem dos itens não importa
+<ol> a ordem dos itens importa
+<li> item da lista
+
+CSS3
+<header #id="header"> só pode ser usado uma vez na página
+<header .class="header">
+
+BOX-MODEL:
+As margens (margin) são espaçamentos entre elementos
+As bordas (border)
+O padding é um espaçamento entre as bordas e o conteúdo, a diferença para as margens é que declarações de imagem de fundo funcionam nele
+O conteúdo (content) é o que o seu bloco representa, um texto, uma imagem, um vídeo
+
+font-family: altera a fonte de todo nosso texto
+font-size: altera o tamanho do texto
+font-style: itálico, por exemplo
+font-weight: altera o "peso" do texto (negrito)
+text-transform: altera para maiúsculas e minúsculas (uppercase, lowercase, capitalize* primeira letra de cada palavra em maiúsculo)
+text-decoration: destaca algum texto, palavra
